@@ -4,6 +4,7 @@ import {StyleSheet, Text, View, Image} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {icons, COLORS} from '../constants/index';
+import Home from '../screens/Home';
 
 const Tab = createBottomTabNavigator();
 
@@ -110,11 +111,7 @@ const Tabs = () => {
           }
         },
       })}>
-      <Tab.Screen
-        options={{headerShown: false}}
-        name="Home"
-        component={Test1}
-      />
+      <Tab.Screen options={{headerShown: false}} name="Home" component={Home} />
       <Tab.Screen options={{headerShown: false}} name="Box" component={Test5} />
       <Tab.Screen
         options={{headerShown: false}}

@@ -1,5 +1,7 @@
-import {useWindowDimensions} from 'react-native';
-const {width, height} = useWindowDimensions();
+import {Dimensions} from 'react-native';
+
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
 
 export const COLORS = {
   // base colors
