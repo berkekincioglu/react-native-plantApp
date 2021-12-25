@@ -14,7 +14,7 @@ const App = () => {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen
           options={{headerShown: false}}
-          name="Home"
+          name="Default"
           component={Tabs}
         />
         <Stack.Screen
