@@ -21,7 +21,7 @@ const RenderNewPlants = ({index, item}) => {
           position: 'absolute',
           bottom: '12%',
           right: 0,
-
+          opacity: 0.9,
           backgroundColor: COLORS.primary,
           paddingHorizontal: SIZES.base,
           borderTopLeftRadius: 10,
